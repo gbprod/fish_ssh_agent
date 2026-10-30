@@ -1,5 +1,5 @@
 function sshagent_findsockets
-    find $HOME/.ssh/agent/s.* -uid (id -u) -type s -name \*.agent.\* 2>/dev/null
+    find $HOME/.ssh/agent/s.* -uid (id -u) -type s 2>/dev/null
 end
 
 function sshagent_testsocket
